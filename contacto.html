@@ -9,11 +9,11 @@
   </head>
   <!----Comienza HEADER---->
   <body>
-    <div id="header" class="bg-secondary">
-      <div class="container-xl bg-secondary">
-        <nav class="navbar navbar-expand-lg navbar-dark">
+    <div id="header" class="bg-dark">
+      <div class="container-xl bg-dark">
+        <nav class="navbar navbar-expand-lg navbar-dark text-light">
           <div class="container-fluid">
-            <a class="navbar-brand text-light fs-1 fw-bold" href="index.html">First-Class</a>
+            <a class="navbar-brand font-bold text-light" href="index.html">First-Class</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
@@ -44,38 +44,38 @@
   <!----Finaliza HEADER---->
 
   <!----Comienza CONTENIDO PRINCIPAL---->
-  <div class="container card mt-3 mb-3 bg-warning">
-    <h1>Contactanos</h1>
+  <div class="bloqueDeContacto container d-flex bg-secondary">
     <div class="row g-3">
+      <h1 class="font-h1">Contactanos</h1>
         <div class="col-md-6 mb-3">
-          <label for="nombreInput" class="form-label">Nombre</label>
-        <input id="nombreInput" class="form-control form-control-sm" type="name" name="nombre" placeholder="Ingresá tu nombre" required>
+          <label for="nombreInput" class="form-label font-pPlus font-medium">Nombre</label>
+        <input id="nombreInput" class="form-control form-control-sm font-pPlus font-medium" type="name" name="nombre" placeholder="Ingresá tu nombre" required>
         </div>
         <div class="col-md-6 mb-3">
-          <label for="apellidoInput" class="form-label">Apellido</label>
-        <input id="appeliidoInput" class="form-control form-control-sm" type="name" name="apellido" placeholder="Ingresá tu apellido" required>
+          <label for="apellidoInput" class="form-label font-pPlus font-medium">Apellido</label>
+        <input id="appeliidoInput" class="form-control form-control-sm font-pPlus font-medium" type="name" name="apellido" placeholder="Ingresá tu apellido" required>
         </div>
         <div class="col-md-6 mb-3">
-          <label for="emailInput" class="form-label">E-mail</label>
-        <input id="emailInput" class="form-control form-control-sm" type="name" name="email" placeholder="Ingresá tu mail" required>
+          <label for="emailInput" class="form-label font-pPlus font-medium">E-mail</label>
+        <input id="emailInput" class="form-control form-control-sm font-pPlus font-medium" type="name" name="email" placeholder="Ingresá tu mail" required>
         </div>
         <div class="col-md-6 mb-3">
-          <label for="telInput" class="form-label">Número de teléfono (opcional)</label>
-          <input id="telInput" type="text" name="teléfono" class="form-control" placeholder="Ej.: +54 223123456">
+          <label for="telInput" class="form-label font-pPlus font-medium">Número de teléfono (opcional)</label>
+          <input id="telInput" type="text" name="teléfono" class="form-control font-pPlus font-medium" placeholder="Ej.: +54 223123456">
         </div>
         <div class="col-md-12 mb-3">
-          <label for="comentario" class="form-label">Comentario</label>
+          <label for="comentario" class="form-label font-pPlus font-medium">Comentario</label>
           <textarea id="comentario" class="form-control form-control-lg"></textarea required>
         </div>
         <div class="col-md-6 mb-3">
-          <button type="submit" class="btn btn-dark">Enviar</button>
+          <button type="submit" class="btn btn-dark font-pPlus font-medium">Enviar</button>
         </div>
     </div>
   </div>
   <!----Finaliza CONTENIDO PRINCIPAL---->
-    <div id="footer" class="bg-secondary">
+    <div id="footer" class="bg-dark">
       <div class="row">
-        <div class="col-7 mx-auto texto text-white text-center">
+        <div class="col-7 mx-auto texto text-white text-center fs-1">
           Footer
         </div>
       </div>

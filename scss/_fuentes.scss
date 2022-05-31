@@ -19,7 +19,8 @@ $cabeceras:(
   h2: 4rem,
   h3: 2rem,
   h4: 2rem,
-  p: 14px
+  p: 14px,
+  pPlus: 18px
 );
 
 @each $heading, $size in $cabeceras{
