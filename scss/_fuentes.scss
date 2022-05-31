@@ -15,11 +15,11 @@ $fuentes: (
 }
 
 $cabeceras:(
-  h1: 8rem,
+  h1: 6rem,
   h2: 4rem,
   h3: 2rem,
   h4: 2rem,
-  p: 15px
+  p: 14px
 );
 
 @each $heading, $size in $cabeceras{

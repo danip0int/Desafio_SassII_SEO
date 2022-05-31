@@ -29,10 +29,6 @@ img{
     height: auto;
 }
 
-#header, #tarjetasDestino, #footer, .mySlide {
-    width: 100%;
-    margin: auto;
-}
 
 /*variables*/
 
@@ -44,26 +40,3 @@ img{
     align-items: $horizontal;
     flex-wrap: $wrap;
 }
-
-
-
-
-
-/*.btn{
-    border: none;
-    border-radius: 2px;
-    padding: 0.7em 1.5em;
-    cursor: pointer;
-    margin-right: 8px;
-    margin-bottom: 8px;
-    font-size: 1.5rem;
-    font-weight: 500;
-    color: white;
-    background-color:#6610f2;
-}
-.btn-principal{
-    @extend .btn;
-}*/ 
-
-// este botón iba a ir en la tarjeta "ver mas" pero no me convenció
-
