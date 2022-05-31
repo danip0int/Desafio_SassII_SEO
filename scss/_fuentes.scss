@@ -1,29 +1,29 @@
-
 /*MAPS*/
 
-$headings:(
-    h1: 5rem,
-    h2: 4rem,
-    h3: 3rem,
-    h4: 2rem
-);
-
-@each $heading, $size in $headings {
-    .font-#{$heading}{
-        font-size: $size;
-    }
-}
-
-$fuentes:(
-    light: 300,
-    regular: 400,
-    medium: 500,
-    semi-bold: 600,
-    bold: 700,
-    extra-bold: 800
+$fuentes: (
+  light: 300,
+  regular: 400,
+  medium: 500,
+  semi-bold: 600,
+  bold: 700,
+  extra-bold: 800,
 );
 @each $clave, $valor in $fuentes {
-    .font-#{$clave}{
-        font-weight: $valor;
-    }
+  .font-#{$clave} {
+    font-weight: $valor;
+  }
+}
+
+$cabeceras:(
+  h1: 8rem,
+  h2: 4rem,
+  h3: 2rem,
+  h4: 2rem,
+  p: 15px
+);
+
+@each $heading, $size in $cabeceras{
+  .font-#{$heading} {
+    font-size: $size;
+  }
 }
