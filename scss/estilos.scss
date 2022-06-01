@@ -22,7 +22,7 @@
     bottom: 5px;
   }
 }
-.navbar-brand{
+.navbar-brand {
   font-size: 3.5rem;
 }
 
@@ -87,10 +87,10 @@
     transition: all 0.3s ease;
   }
   .carousel-control-next {
-    right: 120px;
+    right: 100px;
   }
   .carousel-control-prev {
-    left: 120px;
+    left: 100px;
   }
 }
 @keyframes fadeInLeft {
@@ -113,43 +113,47 @@
     transform: translateX(0px);
   }
 }
-.btn-excursion{
+.btn-excursion {
   @extend .btn;
   background-color: rgb(80, 203, 224);
-
 }
 
 /*Finaliza pagina HOME*/
 
 /*Comienza pagina EXCURSIONES*/
-#videoExcursion{
-	background: rgb(223,174,238);
-  background: radial-gradient(circle, rgba(223,174,238,0.9248074229691877) 0%, rgba(148,233,206,1) 100%);
-	width: 100%;
-	height: 900px;
-	color: white;
+#videoExcursion {
+  margin-top: 120px;
+  background: rgb(223, 174, 238);
+  background: radial-gradient(
+    circle,
+    rgba(223, 174, 238, 0.9248074229691877) 0%,
+    rgba(148, 233, 206, 1) 100%
+  );
+  width: 100%;
+  height: 700px;
+  color: white;
 }
-.bloqueExcursion{
+.bloqueExcursion {
   .imgExcursion1 {
-	justify-content: start;
-	left: 150px;
-}
-.imgExcursion2 {
-	justify-content: end;
-	right: 150px;
-}
-.descripcionExc{
-	width: 20%;
-}
-.tituloExcursion{
-	font-size: 70px;
-}
+    justify-content: start;
+    left: 150px;
+  }
+  .imgExcursion2 {
+    justify-content: end;
+    right: 150px;
+  }
+  .descripcionExc {
+    width: 20%;
+  }
+  .tituloExcursion {
+    font-size: 70px;
+  }
 }
 /*Finaliza pagina EXCURSIONES*/
 
 /*Comienza pagina CONTACTO*/
 
-.bloqueDeContacto{
+.bloqueDeContacto {
   margin-top: 140px;
 }
 /*Finaliza pagina CONTACTO*/
