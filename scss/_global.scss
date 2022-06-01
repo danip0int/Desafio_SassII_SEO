@@ -41,10 +41,27 @@ img{
 }
 
 /*MIXIN*/
-
 @mixin caja-flex($principal, $horizontal, $wrap){
     display: flex;
     justify-content: $principal;
     align-items: $horizontal;
     flex-wrap: $wrap;
 }
+
+/*EXTENDED*/
+.btn{
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    margin-right: 80px;
+    margin-left: 80px;
+    margin-top: 15px;
+    margin-bottom: 8px;
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: white;
+    background-color:#3887f0c7;
+}
+.btn{
+    @extend .btn;
+  }

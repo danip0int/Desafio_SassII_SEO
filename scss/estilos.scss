@@ -113,11 +113,12 @@
     transform: translateX(0px);
   }
 }
-.card-body{
-  a{
-    font-size: 20px;
-  }
+.btn-excursion{
+  @extend .btn;
+  background-color: rgb(80, 203, 224);
+
 }
+
 /*Finaliza pagina HOME*/
 
 /*Comienza pagina EXCURSIONES*/
